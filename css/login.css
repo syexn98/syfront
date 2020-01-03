@@ -132,3 +132,18 @@ fieldset, img {
     float: right;
     color: #777;
 }
+
+.not_member {
+    margin: 10px 0 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.link_join {
+    color: rgb(17, 72, 136);
+}
+
+.link_join:hover {
+    color: rgb(17, 72, 136);
+    text-decoration: underline;
+}
