@@ -1,8 +1,19 @@
+@font-face {
+  font-family: "NanumSquare";
+  src:url("../font/NANUMSQUARER.TTF")format("truetype");
+}
+
+@font-face{
+  font-family: "NanumSquare_Bold";
+  src: url("../font/NANUMSQUAREB.TTF") format("truetype");
+}
+
 body {
-  font-family: sans-serif;
+  font-family: NanumSquare;
 }
 
 video {
   max-width: 100%;
-  width: 300px;
+  width: 600px;
+  
 }
