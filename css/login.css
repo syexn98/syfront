@@ -1,4 +1,15 @@
+@font-face {
+    font-family: "NanumSquare";
+    src:url("../font/NANUMSQUARER.TTF")format("truetype");
+}
+
+@font-face{
+    font-family: "NanumSquare_Bold";
+    src: url("../font/NANUMSQUAREB.TTF") format("truetype");
+}
+
 a {
+    font-family: "Nanum Gothic";
     color: #333;
     text-decoration: none;
 }
@@ -25,6 +36,7 @@ input {
     border-image: initial;
 }
 .inner_login {
+    font-family: NanumSquare;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -86,7 +98,7 @@ fieldset, img {
     border-radius: 3px;
     font-size: 16px;
     color: #fff;
-    background-color: rgb(17, 72, 136);
+    background-color: #5576d1;
 }
 .login_append {
     overflow: hidden;
@@ -146,4 +158,12 @@ fieldset, img {
 .link_join:hover {
     color: rgb(17, 72, 136);
     text-decoration: underline;
+}
+
+.webrtc {
+    margin: 10px 0 0;
+    color: #000;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 13px;
 }

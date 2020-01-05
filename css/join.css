@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "NanumSquare";
+    src:url("../font/NANUMSQUARER.TTF")format("truetype");
+}
+
+@font-face{
+    font-family: "NanumSquare_Bold";
+    src: url("../font/NANUMSQUAREB.TTF") format("truetype");
+}
+
+p {
+    font-family: "NanumSquare";
+    color: #333;
+    text-decoration: none;
+}
+
+input {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.main_screen {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    line-height: 0;
+    text-indent: -9999px;    
+}
+
+body, input, select, td, textarea, th {
+    font-family: NanumSquare;
+    font-size: 13px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}   
+
+fieldset, img {
+    border: 0;
+}
+
+.btn_join {
+    font-family: NanumSquare;
+    margin: 20px 0 0;
+    width: 100%;
+    height: 48px;
+    border-radius: 3px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #5576d1;
+}
